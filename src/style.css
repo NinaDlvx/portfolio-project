@@ -81,8 +81,8 @@ a.btn-branding {
 }
 
 .content-container {
-  padding: 120px 20px;
-  margin: 0 110px;
+  padding: 75px 20px;
+  margin: 0 70px;
 }
 
 .header-about-page h1 {
@@ -157,7 +157,8 @@ nav li.active a {
   padding: 0;
 }
 
-footer .contact-box {
+footer .contact-box,
+.source-box {
   background: linear-gradient(
     102.3deg,
     rgb(147, 39, 143) 5.9%,
