@@ -80,7 +80,7 @@ a.btn-branding {
   border-radius: 4px;
 }
 
-.container-about-page {
+.content-container {
   padding: 120px 20px !important;
   margin: 0 110px !important;
 }
@@ -96,12 +96,25 @@ a.btn-branding {
   line-height: 1.5;
 }
 
-.about-page-content p {
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: var(--hero-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
   line-height: 1.5;
+  font-family: var(--hero-font-family);
+}
+
+.content p {
+  line-height: 1.5;
+  font-family: var(--secondary-font-family);
 }
 
 .card {
-  border-color: var(--branding-color);
+  border-color: 1px solid var(--branding-color);
   background-color: var(--tertiary-color);
 }
 
@@ -110,6 +123,10 @@ a.btn-branding {
   font-family: var(--hero-font-family);
   text-align: center;
   line-height: 1.5;
+}
+
+.img-thumbnail {
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 992px) {
@@ -130,13 +147,14 @@ a.btn-branding {
     text-align: center !important;
   }
 
-  .container-about-page {
+  .content-container {
     padding: 20px;
     margin: 0 auto !important;
     text-align: center;
   }
-  .header-about-page h1 {
+  .content-container h1 {
     font-size: 36px;
+    line-height: 1.5;
   }
 }
 
