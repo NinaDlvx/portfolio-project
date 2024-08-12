@@ -58,6 +58,14 @@ h2 {
   font-weight: 900;
 }
 
+.shecodes-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.shecodes-link:hover {
+  text-decoration: underline;
+}
+
 .project-description {
   padding: 120px 60px 0 !important;
 }
